@@ -1,4 +1,4 @@
-FROM nginx:1.27.3-bookworm
+FROM nginx:1.27.5-bookworm
 RUN mkdir -p /etc/nginx/ssl/ \
     && openssl req \
             -x509 \
